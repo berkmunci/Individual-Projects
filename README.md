@@ -7,9 +7,18 @@ Plots of two figures which are Revanue vs Date and Stock price vs Date for each 
 
 ## Project Phases:
   ##  1) DATA COLLECTION PHASE
-  - 1.A)Stock data of Tesla and Ford Motors are extracted from Yahoo Finance with yfinance function 
-  - 1.B)Stock data of Tesla and Ford Motors are extracted with webscrapting
+  - 1.A) Stock data of Tesla and Ford Motors are extracted from Yahoo Finance with yfinance function 
+  - 1.B) Stock data of Tesla and Ford Motors are extracted with webscrapting
   ##  2) DATA PREPERATION PHASE
   - Values at Revenue column have dollar signs and commas instead of dots. Data need to be manipulated for numerical calculations such as finding mean value of Revenue. For this reason dolar sign ("$") is neglected and commas (",") are replaced with dot (".")
   ##  3) DATA VISUALIZATION PHASE
-  - Visualization function is created and desired outputs are created.
+  - Visualization function is created and desired outputs are made. Each figures values which are stock prices and revanues, are dependendent to each other with time parameter. Date can be trimmed with using gui for observe relations between revanue and stock prices in a specific time interval. 
+  
+   ###  Revanue vs Date and Stock price vs Date for Tesla
+  ![output_tesla](https://user-images.githubusercontent.com/114949587/225123090-ebcb98ec-a6f5-4274-9d74-fa14bc237c2c.png)
+
+   ###  Revanue vs Date and Stock price vs Date for Tesla
+  ![output_ford_motors](https://user-images.githubusercontent.com/114949587/225124266-5066e616-1e54-41e1-af00-13d0ac6791ae.png)
+  
+
+
